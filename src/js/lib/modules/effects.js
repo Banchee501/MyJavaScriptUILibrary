@@ -11,6 +11,7 @@ $.prototype.animateOverTime = function (dur, cb, fin) {
         let timeElapsed = time - timeStart;
         let complection = Math.min(timeElapsed / dur, 1);
 
+        
         cb(complection);
 
         if (timeElapsed < dur) {
