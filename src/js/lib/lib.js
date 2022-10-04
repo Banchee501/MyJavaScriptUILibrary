@@ -10,4 +10,3 @@ import './components/modal';
 import './modules/attribute';
 
 export default $;
-
